@@ -2,7 +2,6 @@
 //
 
 int i;
-int a = 30;
 
 void setup()
 {
@@ -10,18 +9,14 @@ void setup()
   
   /* Using a while-loop
   
-  while ( i <= 30 ) {
-    Serial.println(a);
+  while ( i >= 0 ) {
+    Serial.println(i);
     i++;
-    a--;
-    delay(1000);
   } */
   
   // Using a for-loop
-  for ( i = 0 ; i <= 30 ; i++) {
-    Serial.println(a);
-    a--;
-    delay(1000);
+  for ( i = 30 ; i >= 0 ; i--) {
+    Serial.println(i);
   }
 }
 
